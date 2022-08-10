@@ -10,12 +10,10 @@ que
 él
 era
 para
-en
 son
 con
 ellos
 ser
-en
 uno
 tener
 este
@@ -28,13 +26,10 @@ qué
 algunos
 es
 usted
-o
 tenido
 la
 de
-y
 un
-en
 nos
 lata
 fuera
@@ -98,7 +93,6 @@ madre
 mundo
 cerca
 construir
-auto
 tierra
 padre
 cualquier
@@ -119,16 +113,13 @@ ronda
 hombre
 años
 vino
-show
 cada
 buena
-me
 dar
 nuestro
 bajo
 nombre
 muy
-a través de
 sólo
 forma
 frase
@@ -139,7 +130,6 @@ ayudar
 bajo
 línea
 ser distinto
-a su vez,
 causa
 mucho
 significará
@@ -151,7 +141,6 @@ viejo
 demasiado
 misma
 ella
-todo
 hay
 cuando
 hasta
@@ -184,7 +173,6 @@ venir
 hizo
 número
 sonar
-no
 más
 personas
 mi
@@ -242,7 +230,6 @@ dibujar
 izquierda
 tarde
 ejecutar
-no
 mientras
 prensa
 Cerrar
@@ -264,7 +251,6 @@ peces
 montaña
 Deténgase
 una vez
-base de
 escuchar
 caballo
 cortada
@@ -348,7 +334,6 @@ sabía
 pasar
 desde
 cima
-todo
 rey
 calle
 pulgadas
@@ -541,7 +526,6 @@ aún
 ola
 caer
 corazón
-am
 presente
 pesada
 danza
@@ -716,7 +700,6 @@ siete
 párrafo
 tercero
 deberá
-en espera
 pelo
 describir
 cocinero
@@ -752,7 +735,6 @@ naturales
 vista
 sentido
 de capital
-no lo hará
 silla
 peligro
 fruta
@@ -842,7 +824,6 @@ enviar
 amarillo
 pistola
 permitir
-print
 muerto
 lugar
 desierto
@@ -851,7 +832,6 @@ actual
 ascensor
 rosa
 llegar
-master
 pista
 padre
 orilla

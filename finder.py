@@ -53,6 +53,7 @@ def spanish_language_dict():
     return {word: True for word in spanish_words.split()}
 
 def detect_spanish_words(file_name):
+    #print(file_name)
     the_input = ""
     with open(file_name, 'r') as f:
         the_input = f.read()
@@ -72,7 +73,11 @@ def detect_spanish_words(file_name):
         return comments
 
     lines = the_input.split('\n')
-    comments = extract_comments(lines)
+    comments = the_input.split('\n')
+
+    # temporarily disabled comment parsing
+    #comments = extract_comments(lines)
+
     # make all comments lowercase
     comments = [comment.lower() for comment in comments]
 
@@ -90,10 +95,10 @@ def detect_spanish_words(file_name):
             word_list.append(word)
 
     if found > 0:
-        print_red(file_name + ": Spanish words found: {}".format(found))
-        print_red(file_name + ": Spanish words: {}".format(word_list))
+        print_red(file_name + ": Spanish words{}: {}".format(found, word_list))
     else:
-        print(file_name + ": OK")
+        pass
+        #print(file_name + ": OK")
 
 
 def process_folder(folder_name):
@@ -102,9 +107,13 @@ def process_folder(folder_name):
         if os.path.isdir(os.path.join(folder_name, file_name)):
             process_folder(os.path.join(folder_name, file_name))
         else:
-            if file_name.endswith('.js'):
-                print("Processing {}".format(file_name))
-                detect_spanish_words(os.path.join(folder_name, file_name))
+            if file_name.endswith('.js') or file_name.endswith('.go'):
+                #print("Processing {}".format(file_name))
+                try:
+                    detect_spanish_words(os.path.join(folder_name, file_name))
+                except UnicodeDecodeError as e:
+                    print_red(os.path.join(folder_name, file_name) + ": Unicode error: {}".format(e))
+                    pass
             else:
                 pass
                 #print("Skipping {}".format(file_name))
